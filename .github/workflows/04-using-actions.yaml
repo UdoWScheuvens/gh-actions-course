@@ -11,4 +11,5 @@ jobs:
       - name: Printing folders
         run: |
           echo "Printing all folders:"
+          cd 04-using-actions
           ls -d */
